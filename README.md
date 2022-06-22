@@ -14,7 +14,7 @@ The cell microstructure analysis software based on the diffusion magnetic resona
 The software supports the multi-shell acquisition mode of one PGSE and two OGSE. It can convert the data in dicom format to data in nifti format, and register the multi-b-value images in each sequence with the b0 images in PGSE, and then realize the parameter fitting of the two-compartment model according to the input diffusion sequence parameters in the specified ROI，The software can be used to generate the basic apparent diffusion coefficient (ADC), and the two-compartment model-based parameters such as cellularity, extracellular diffusion coefficient, cell diameter, and intracellular fraction.And supports batch processing of files.
 
 The user interface is as shown below
-<div align=center><img src="https://github.com/KuiyuanLiu/app_IMPULSED_Fitting/tree/main/readmeImg/layout.png" ></div>
+<div align=center><img src="https://github.com/KuiyuanLiu/app_IMPULSED_Fitting/blob/main/readmeImg/layout.png" ></div>
 
 You can learn to use the software by working with the examples we provide.
 
@@ -22,7 +22,7 @@ You can learn to use the software by working with the examples we provide.
 1. Select the path of the folder to be processed, the data of multiple cases is saved in this folder, and the data of each case is saved in its own folder.DICOM files and ROI files (saved as mask.nii) need to be included in the folder of a single case.
 The file is saved in the form as shown in the figure below, and a box in the figure represents a folder.
 
-<div align=center><img src="https://github.com/KuiyuanLiu/app_IMPULSED_Fitting/tree/main/readmeImg/FileFormat.png" ></div>
+<div align=center><img src="https://github.com/KuiyuanLiu/app_IMPULSED_Fitting/blob/main/readmeImg/FileFormat.png" ></div>
   
 Note that there are three folders in the DICOM folder, and the x, y, and z in each folder name need to be consistent with the input.     That is, the folder name for saving PGSE needs to contain the "bigdelta (user input) MS" field, and the OGSE folder name needs to contain the "f (user input) HZ" field.
 
